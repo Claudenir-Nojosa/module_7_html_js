@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="utf-8">
+    <title>Módulo 7 - Exercício JS</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Módulo 7 - Conferir dois números</h2>
+        </div>
+        <label for="numA">Digite o primeiro número</label>
+        <input id="numA" type="text"placeholder="Digite o primeiro número">
+        <label for="numB">Digite o segundo número</label>
+        <input id="numB" type="text"placeholder="Digite o segundo número">
+        <input id="validation"value="Conferir" type="submit" onclick="check()">
+    </div>
+    <div id="resultNaN">
+        <p> Não é um número</p>
+    </div>
+    <div id="resultA">
+        <p> O primeiro número é maior que o segundo número</p>
+    </div>
+    <div id="resultB">
+        <p> O segundo número é maior que o primeiro número</p>
+    </div>
+    <div id="resultEqual">
+        <p> O primeiro e o segundo número são iguais</p>
+    </div>
+    <script src="scripts.js"></script>
+</body>   
+</html>

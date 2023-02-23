@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #6dd0dd 0%, #b458c7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+.container input{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    width: 350px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.container label{
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+#resultA{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: 15%;
+    background-color: #b458c7;
+    color: #fafafa;
+    border: solid 2px #843f92;
+    border-radius: 10px;
+    padding: 14px;
+    display: none;
+}
+#resultB{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: 15%;
+    background-color: #b458c7;
+    color: #fafafa;
+    border: solid 2px #843f92;
+    border-radius: 10px;
+    padding: 14px;
+    display: none;
+}
+#resultNaN{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: 15%;
+    background-color: #b458c7;
+    color: #fafafa;
+    border: solid 2px #843f92;
+    border-radius: 10px;
+    padding: 14px;
+    display: none;
+}
+#resultEqual{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    bottom: 15%;
+    background-color: #b458c7;
+    color: #fafafa;
+    border: solid 2px #843f92;
+    border-radius: 10px;
+    padding: 14px;
+    display: none;
+    width: 550px;
+}
+#validation{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    border-color: #b458c7;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #b458c7;
+    transition: background-color 1s;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+#validation:hover{
+    background-color: #843f92;
+}
